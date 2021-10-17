@@ -3,7 +3,7 @@ waypoints:
 - point:
   x: -0.95
   y: 0.45
-  th: 0.5
+  th: 0.4
 
 - point:
   x:  -0.5
@@ -41,23 +41,28 @@ waypoints:
   th: 3.14
 
 - point:
-  x: 0.9
-  y: -0.53
+  x: 0.84
+  y: -0.5
   th: -1.57
 
 - point:
   x: 0.1
-  y: -0.75
-  th: 1.57
+  y: -0.7
+  th: 1.7
 
 - point:
   x: 0.1
-  y: -0.75
-  th: 0.4
+  y: -0.7
+  th: 0.45
+
+- point:
+  x: -0.1
+  y: -0.7
+  th: 2
 
 - point:
   x: -0.5
-  y: -0.75
+  y: -0.85
   th: 3.14
 
 - point:
