@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="map_file" default="$(find burger_navigation)/maps/map_custom.yaml"/>
+  <arg name="filename" default="$(find burger_navigation)/waypoints_cfg/waypoints.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find burger_navigation)/rviz/waypoints.rviz"/>
+  <node pkg="burger_war_dev" type="waypoints_viz.py" name="waypoints" />
+</launch>

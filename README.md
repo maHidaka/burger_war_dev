@@ -10,3 +10,17 @@ Dockerコンテナを使った開発環境構築の方法については、こ�
 
 このファイルは自由に編集いただいて構いません。ただし、上記の記述は残してください。
 
+
+
+# 追加で必要なもの
+
+'''
+$ pip install pyyaml
+'''
+
+
+# waypoint確認
+
+```
+roslaunch burger_navigation waypoints_viz.launch
+```

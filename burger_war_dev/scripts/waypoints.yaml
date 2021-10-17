@@ -1,0 +1,66 @@
+waypoints:
+
+- point:
+  x: -0.95
+  y: 0.45
+  th: 0.5
+
+- point:
+  x:  -0.5
+  y:  0.85
+  th: 0
+
+- point:
+  x:  0
+  y:  0.8
+  th: -1.57
+
+- point:
+  x:  0
+  y:  0.8
+  th: -2.45
+
+- point:
+  x:  0.5
+  y:  0.8
+  th: 0
+
+- point:
+  x:  0.85
+  y:  0.53
+  th: 3.14
+
+- point:
+  x:  0.9
+  y:  0.3
+  th: -1.57
+
+- point:
+  x: 0.9
+  y: 0
+  th: 3.14
+
+- point:
+  x: 0.9
+  y: -0.53
+  th: -1.57
+
+- point:
+  x: 0.1
+  y: -0.75
+  th: 1.57
+
+- point:
+  x: 0.1
+  y: -0.75
+  th: 0.4
+
+- point:
+  x: -0.5
+  y: -0.75
+  th: 3.14
+
+- point:
+  x: -0.9
+  y: -0.5
+  th: 0
