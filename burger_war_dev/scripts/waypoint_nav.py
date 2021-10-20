@@ -14,6 +14,8 @@ import actionlib_msgs
 
 import yaml
 import os
+import roslib.packages
+
 # Ref: https://hotblackrobotics.github.io/en/blog/2018/01/29/action-client-py/
 
 #from std_msgs.msg import String
@@ -26,7 +28,8 @@ import os
 
 class NaviBot():
     def __init__(self):
-        waypoint_file = rospy.get_param('/waypoint_file_path','/home/handaru/catkin_ws/src/burger_war_dev/burger_war_dev/scripts/waypoints.yaml')
+        path = roslib.packages.get_pkg_dir('burger_war_dev') + '/scripts/waypoints.yaml'
+        waypoint_file = rospy.get_param('/waypoint_file_path',path)
 
         # velocity publisher
         self.vel_pub = rospy.Publisher('cmd_vel', Twist,queue_size=1)

@@ -8,8 +8,10 @@ import math
 
 import yaml
 import tf
+import roslib.packages
 
-waypoint_file = rospy.get_param('/waypoint_file_path','/home/handaru/catkin_ws/src/burger_war_dev/burger_war_dev/scripts/waypoints.yaml')
+path = roslib.packages.get_pkg_dir('burger_war_dev') + '/scripts/waypoints.yaml'
+waypoint_file = rospy.get_param('/waypoint_file_path',path)
 
 topic = 'visualization_marker_array'
 publisher = rospy.Publisher(topic, MarkerArray)
